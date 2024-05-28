@@ -1,0 +1,10 @@
+
+@startuml
+:utilizatorul : -->(Se afiseaza landig page):introuduce url aplicatiei in broswer
+:utilizatorul :-->(se va deschide o alta pagina in care va afisa trei campuri unde utilizatorul isi va putea introduce datele, Si un buton de register ):utilizatorul va apasa butonul new accont
+:utilizatorul :-->(Daca aceste formate de caractere nu vor fi respectate va aparea o eroare la capatul campului va aparea un semn de exclamare cu rosu):daca introduce datele incorect
+:utilizatorul :-->(Daca utilizatorul complecteaza bine datele butonul de register va deveni functional adica enable ):introduce datele
+:utilizatorul :-->(se va trimite un e-mail de confirmare care il va notifica pe utilizator ca poate intra in cont.):Cand utilizatorul va introduce si va apasa butonul de register
+:utilizatorul :-->(se vor afisa   trei tipuri de scule, mecanica ,constructii si electronica.):va introduce datele corect si apasa butonul autentification
+:utilizatorul :-->(aplicatia va genera o lista posibila specifica pentru tipul de lucrare ):.Cand utilizatorul va introduce tipul de lucrare si va apasa pe butonul de serch
+@enduml

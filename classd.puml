@@ -1,0 +1,10 @@
+@startuml
+class utilizator {}
+class butonul_new_accont
+{
+lungime,inaltime  culoare
+}
+class camp{}
+class butonul_autentification{}
+class tabul_browserului{}
+@enduml
